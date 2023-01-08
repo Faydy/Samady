@@ -83,7 +83,7 @@ ul {
 #menuToggle {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     top: 25px;
     left: 25px;
     z-index: 1;
@@ -187,7 +187,7 @@ header {
     min-height: 100vh;
     position: relative;
     transform-style: inherit;
-    min-width: 100vw;
+    width: 100vw;
     text-align: center;
     text-transform: uppercase;
 }
@@ -223,23 +223,14 @@ header::before {
     display: block;
     background: url(barber-shop-g9189e7b3a_1920.jpg);
     background-size:auto;
+    background-repeat: no-repeat;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 100vh;
 }
 
-.container {
-    width: 100vw;
-    z-index: 2;
-    position: absolute;
-    top: 100vh;
-    background: black;
-    line-height: 30px;
-    font-weight: lighter;
-    padding: 40px;
-    color: grey;
-}
+
 
 @media only screen and (max-width: 600px) {
     nav img {
@@ -261,8 +252,5 @@ header::before {
     header::before
     {
         background: url(barber.jpg);
-    }
-    .container{
-        width: 82%;
     }
 }
