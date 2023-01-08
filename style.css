@@ -187,7 +187,7 @@ header {
     min-height: 100vh;
     position: relative;
     transform-style: inherit;
-    width: 100vw;
+    min-width: 100vw;
     text-align: center;
     text-transform: uppercase;
 }
@@ -223,7 +223,6 @@ header::before {
     display: block;
     background: url(barber-shop-g9189e7b3a_1920.jpg);
     background-size:auto;
-    background-repeat: no-repeat;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
@@ -262,5 +261,8 @@ header::before {
     header::before
     {
         background: url(barber.jpg);
+    }
+    .container{
+        width: 82%;
     }
 }
