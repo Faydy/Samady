@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coda+Caption&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 html {
     margin: 0;
     padding: 0;
@@ -263,7 +264,6 @@ header::before {
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
 }
-
 @media only screen and (max-width: 600px) {
     #menuToggle{
        position:fixed;
@@ -285,8 +285,14 @@ header::before {
     }
 
     .phone {
-        display: block;
+        display: flex;
+        justify-content: center;
         overflow: hidden;
+    }
+    .titlu{
+        font-family: 'Roboto', sans-serif;
+        margin-top: 20px;
+        color: white;
     }
     header::before
     {
