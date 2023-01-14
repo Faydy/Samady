@@ -6,7 +6,6 @@ html {
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
 }
 body{
     background: black;
@@ -252,6 +251,7 @@ header::before {
     height: 50vh;
 }
 .contact{
+    overflow:scroll;
     margin-top: 100px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -305,10 +305,12 @@ header::before {
         height: 450px;
     }
     .contact{
+        overflow:scroll;
         margin-top: 50px;
         flex-direction: column;
     }
     .vb{
+        overflow:scroll;
         padding-bottom: 50px;
     } 
 }
