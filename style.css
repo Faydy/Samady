@@ -241,6 +241,13 @@ header::before {
     font-weight: lighter;
     color: grey;
 }
+.map{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 @media only screen and (max-width: 600px) {
     #menuToggle{
