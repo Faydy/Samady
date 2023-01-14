@@ -148,7 +148,7 @@ ul {
     box-shadow: 0 0 10px #85888C;
     margin: -50px 0 0 -50px;
     padding: 50px;
-    padding-top: 125px;
+    padding-top: 150px;
     background-color: white;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -283,3 +283,4 @@ header::before {
         height: 100vh;
     }
 }
+@media only screen and (max-height: 700px) { #menu{padding-top: 70px;}}
