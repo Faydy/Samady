@@ -381,5 +381,8 @@ footer{
     .icon{
         padding: 30px;
     }
+    .m-p-g {
+        width: 100vw;
+      }
 }
 @media only screen and (max-height: 700px) { #menu{padding-top: 70px;}}
