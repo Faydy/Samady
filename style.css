@@ -178,16 +178,16 @@ ul {
     color: white;
     margin: 0;
     padding: 0;
-    perspective: 1px;
+    perspective:0;
     transform-style: preserve-3d;
-    height: 100vh;
+   
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 header {
     box-sizing: border-box;
-    min-height: 100vh;
+    height:120vh;
     position: relative;
     transform-style: inherit;
     min-width: 100vw;
@@ -210,7 +210,13 @@ header p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+#credite{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 140vh;
+    left: 50%;
+}
 header,
 header:before {
     background: 50% 50% / cover;
@@ -229,14 +235,15 @@ header::before {
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
-    min-height: 100vh;
+    height: 120vh;
 }
 
 .container {
     width: 100vw;
+
+    margin-top: 200px;
     z-index: 2;
     position: absolute;
-    top: 100vh;
     background: black;
     line-height: 30px;
     font-weight: lighter;
@@ -313,7 +320,15 @@ footer{
     font-size: 30px;
     margin-bottom: 15px;
 }
+#credite{
+    color: white;
+    text-align: center;
+    
+}
 @media only screen and (max-width: 600px) {
+    #credite{
+        font-size: 1em;
+    }
     #menuToggle{
        position:fixed;
     }
